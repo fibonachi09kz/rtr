@@ -345,3 +345,157 @@ footer .bottom a.top-btn {
 #quest .car__img img {
     object-fit: cover;
 }
+
+
+#reviews {
+    padding: 80px 0;
+}
+#reviews h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#reviews .descr {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#reviews .tabs {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+#reviews .tabs li {
+    cursor: pointer;
+}
+#reviews .tabs li span {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+#reviews .tabs li.active span {
+    font-weight: 600;
+}
+.swiper-pagination {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+.swiper-pagination-bullet {
+    background: none;
+    transition: 0.3s all;
+    margin: 0 10px !important;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 0;
+    opacity: 1;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #fff;
+}
+.swiper-slide {
+    user-select: none;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#brands {
+    padding: 80px 0;
+}
+#brands .descr {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#brands .swiper {
+    height: 128px;
+}
+#brands .swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+#brands .swiper .swiper-slide img {
+    max-height: 128px;
+    height: auto;
+    width: auto;
+}
+#brands .swiper .swiper-wrapper {
+    -webkit-transition-timing-function:linear; 
+    -o-transition-timing-function:linear;
+    transition-timing-function:linear; 
+}
+
+
+
+#gallery {
+    padding: 162px 0 80px 0;
+}
+#gallery h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#gallery .descr {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#gallery .tabs {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#gallery .tabs li {
+    cursor: pointer;
+}
+#gallery .tabs li span {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+#gallery .tabs li.active span {
+    font-weight: 600;
+}
+#gallery .tabs li span img.non-active {
+    display: block;
+}
+#gallery .tabs li span img.active {
+    display: none;
+}
+#gallery .tabs li.active span img.active {
+    display: block;
+}
+#gallery .tabs li.active span img.non-active {
+    display: none;
+}
