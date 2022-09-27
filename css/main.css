@@ -36,6 +36,9 @@ body a:hover {
 .icon:hover svg path {
     fill: var(--mainBg)
 }
+.icon:hover {
+    color: var(--mainBg)
+}
 footer {
     background: url(/media/footer/bg.png) center center/cover no-repeat;
     padding: 40px 0;
@@ -244,4 +247,101 @@ footer .bottom a.top-btn {
     line-height: 32px;
     max-width: 770px;
     margin: 0 auto;
+}
+#news {
+    position: relative;
+}
+#news .block__line {
+    padding: 43px 0;
+    background: url(/media/news/line.png) center center/cover no-repeat;
+    position: absolute;
+    top: -70px;
+    width: 100%;
+}
+#news .block__line p {
+    text-align: center;
+    transform: rotate(-1deg);
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+}
+#news .block__line p a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+#quest {
+    padding: 80px 0 57px 0;
+    background: url(/media/quest/bg.png) center center/cover no-repeat;
+}
+#quest .inner {
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto;
+}
+#quest h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+#quest .quests {
+    margin-bottom: 57px;
+}
+#quest .item .title__block {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+#quest .item .title__block.opened .title__icon svg {
+    transform: rotate(180deg);
+}
+#quest .item .title__block .title__icon {
+    margin-right: 20px;
+}
+#quest .item .title__block .title {
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+#quest .item .content__block {
+    margin-top: 20px;
+}
+#quest .item .content__block .des .title {
+    position: relative;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+#quest .item .content__block .des .title:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: url(/media/quest/cube.svg) center center/cover no-repeat;
+    width: 15px;
+    height: 15px;
+}
+#quest .item .content__block .des .text {
+    padding-left: 35px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+}
+#quest .car__img {
+    height: 450px;
+    max-width: 878px;
+    margin: 0 auto;
+}
+#quest .car__img img {
+    object-fit: cover;
 }
