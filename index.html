@@ -21,6 +21,7 @@
         }
     </script>
     <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/fancybox.css">
     <link rel="stylesheet" href="/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <title>RTR</title>
@@ -31,7 +32,16 @@
 
 
     <main>
+        <section id="work">
+            <div class="container-main">
+                <h2>Как мы работаем</h2>
+                <p class="descr">Работаем по простой и понятной схеме в 4 шага</p>
+            </div>
+        </section>
         <section id="gallery" class="tabs__section">
+            <div class="block__line">
+                <p>Студия «Реставратор» обладает большим портфолио (фото, видео), смотрите ниже в <a href="">«ГАЛЕРЕЕ РАБОТ»</a></p>
+            </div>
             <div class="container-main">
                 <h2>Галерея наших работ</h2>
                 <p class="descr">Выполнили более 1000 заказов за время работы</p>
@@ -43,6 +53,120 @@
                         <span><img src="/media/gallery/icons/video.svg" class="non-active" alt=""><img src="" class="active" alt=""> ВИДЕО</span>
                     </li>
                 </ul>
+                <div class="swiper gallery-categories">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Все</div>
+                        <div class="swiper-slide">Экспресс-покраска</div>
+                        <div class="swiper-slide">реставрация автодисков</div>
+                        <div class="swiper-slide">Пескоструйная обработка</div>
+                        <div class="swiper-slide">Покраска</div>
+                        <div class="swiper-slide">Аргонодуговая сварка</div>
+                        <div class="swiper-slide">Правка (прокатка) дисков</div>
+                        <div class="swiper-slide">Другое</div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <ul class="items grid grid-cols-4">
+                    <li>
+                        <a
+                            href="/media/gallery/1.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                        >
+                            <img src="/media/gallery/1.png" alt="">
+                            <div class="layer">
+                                <div class="b"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/media/gallery/1.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                        >
+                            <img src="/media/gallery/1.png" alt="">
+                            <div class="layer">
+                                <div class="b"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/media/gallery/1.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                        >
+                            <img src="/media/gallery/1.png" alt="">
+                            <div class="layer">
+                                <div class="b"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/media/gallery/1.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                        >
+                            <img src="/media/gallery/1.png" alt="">
+                            <div class="layer">
+                                <div class="b"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/media/gallery/1.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                        >
+                            <img src="/media/gallery/1.png" alt="">
+                            <div class="layer">
+                                <div class="b"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/media/gallery/1.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                        >
+                            <img src="/media/gallery/1.png" alt="">
+                            <div class="layer">
+                                <div class="b"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/media/gallery/1.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                        >
+                            <img src="/media/gallery/1.png" alt="">
+                            <div class="layer">
+                                <div class="b"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/media/gallery/1.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                        >
+                            <img src="/media/gallery/1.png" alt="">
+                            <div class="layer">
+                                <div class="b"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="show-more-btn">
+                    ↓ Показать еще ↓
+                </div>
             </div>
         </section>
         <section id="brands">
@@ -462,6 +586,7 @@
 
     <script src="/js/jq.js"></script>
     <script src="/js/modal.js"></script>
+    <script src="/js/fancybox.umd.js"></script>
     <script src="/js/swiper-bundle.min.js"></script>
     <script src="/js/main.js"></script>
 </body>

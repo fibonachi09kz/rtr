@@ -61,14 +61,21 @@ document.addEventListener('DOMContentLoaded', () => {
         grabCursor: true,
         autoplay: {
             delay: 1,
-            disableOnInteraction: true
+            disableOnInteraction: false
         },
-        freeMode: true,
-        speed: 5000,
-        freeModeMomentum: false,
+        speed: 2000,
         slidesPerView: 'auto'
     });
-
+    var galleryCategoriesSwiper = new Swiper(".gallery-categories", {
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            draggable: true,
+            hide: false
+        },
+        slidesPerView: "auto",
+        spaceBetween: 40,
+        grabCursor: true
+    });
 
 
 
