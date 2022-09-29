@@ -97,10 +97,10 @@ footer .top .socials {
 
 
 
-footer .top .socials a.icon.wp:hover {
+footer .top .socials a.icon.wp {
     background: #25D366;
 }
-footer .top .socials a.icon.wp:hover svg path {
+footer .top .socials a.icon.wp svg path {
     fill: #fff;
 }
 
@@ -631,4 +631,144 @@ footer .bottom a.top-btn {
     line-height: 36px;
     text-align: center;
     margin-bottom: 40px;
+}
+#work .consult h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 52px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#work .consult p.text {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+#work .consult .red-btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    transition: 0.3s all;
+    text-decoration: none;
+    background: #AD1921;
+}
+#work .consult .red-btn:hover {
+    background: #D81823;
+}
+#work .steps .step .top {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+#work .steps .step .icon {
+    width: 47px;
+    height: 47px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 16px;
+}
+#work .steps .step .line {
+    flex: 1 1 auto;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+}
+#work .steps .step h4 {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+#work .steps .step p.des {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    max-width: 170px;
+}
+#work address {
+    margin-top: 20px;
+    font-style: normal;
+}
+#work address .socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#work .steps .step address .socials .icon {
+    width: 40px;
+    height: 40px;
+}
+#work .steps .step address .socials .icon.wp {
+    background: #25D366;
+}
+#work .steps .step address .socials .icon.wp svg path {
+    fill: #fff
+}
+#work .steps .step address .nums a {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+#work .steps .step address .nums p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+}
+#work .steps .step .tooltip {
+    margin-top: 10px;
+    position: relative;
+}
+#work .steps .step .tooltip .name {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: fit-content;
+    border-bottom: 1px dashed #fff;
+}
+#work .steps .step .tooltip .name:hover {
+    border-bottom: 1px dashed transparent;
+}
+
+#work .steps .step .tooltip:hover .drop {
+    opacity: 1;
+    visibility: visible;
+}
+#work .steps .step .tooltip .drop {
+    position: absolute;
+    padding: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s all;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    min-width: 250px;
+    top: -6px;
+    left: 75px;
+    z-index: 999;
+}
+#work .steps .step .tooltip .drop .title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    width: fit-content;
+    border-bottom: 1px dashed #000000;
+    margin-bottom: 11px;
+}
+#work .steps .step .tooltip .drop ol {
+    padding-left: 10px;
+}
+#work .steps .step .tooltip .drop li {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
 }
