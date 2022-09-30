@@ -772,3 +772,109 @@ footer .bottom a.top-btn {
     line-height: 21px;
     color: #000;
 }
+
+
+
+#performance {
+    position: relative;
+    padding: 80px 0;
+    background: url(/media/performance/bg.png) center center/cover no-repeat;
+}
+#performance h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#performance p.descr {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#performance .main p.title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+#performance .main .steps {
+    margin-bottom: 40px;
+}
+#performance .main .steps li {
+    position: relative;
+    padding-left: 40px;
+
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 24px;
+}
+#performance .main .steps li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 22px;
+    background: url(/media/performance/dot.svg) center center/cover no-repeat;
+}
+
+#performance .main .fea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+#performance .main .fea .block {
+    padding: 30px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+#performance .main .fea .block p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    max-width: 220px;
+}
+#performance .main .fea .block .icon {
+    width: 60px;
+    height: 60px;
+}
+#performance .main .fea .block .icon svg {
+    max-width: 24px;
+}
+#performance .main .ext-list li {
+    position: relative;
+    padding-left: 40px;
+
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 24px;
+}
+#performance .main p.ext {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 52px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#performance .main .ext-list li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 22px;
+    background: url(/media/performance/dot-b.svg) center center/cover no-repeat;
+}
+
+#performance .side {
+    
+}
