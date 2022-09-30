@@ -779,6 +779,7 @@ footer .bottom a.top-btn {
     position: relative;
     padding: 80px 0;
     background: url(/media/performance/bg.png) center center/cover no-repeat;
+    overflow: hidden;
 }
 #performance h2 {
     font-weight: 600;
@@ -875,6 +876,63 @@ footer .bottom a.top-btn {
     background: url(/media/performance/dot-b.svg) center center/cover no-repeat;
 }
 
-#performance .side {
-    
+#performance .side .side__img {
+    position: relative;
+}
+#performance .side .side__img a {
+    position: relative;
+    z-index: 10;
+}
+#performance .side .side__img .bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400%;
+    height: 300%;
+    max-width: none;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: all;
+}
+#performance .side .side__img {
+    margin-bottom: 30px;
+}
+#performance .side .speak {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+#performance .side .red-btn {
+    background: #AD1921;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    transition: 0.3s all;
+    text-decoration: none;
+}
+#performance .side .red-btn:hover {
+    background: #D81823;
+}
+#performance .side .title__block {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-bottom: 17px;
+}
+#performance .side .title__block svg {
+    max-width: 52px;
+}
+#performance .side .title__block p.main {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+#performance .side .title__block p.dop {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
 }
