@@ -84,6 +84,12 @@ document.addEventListener('DOMContentLoaded', () => {
             el: '.swiper-pagination',
         }
     });
+    var dopsSwiper = new Swiper(".dops-swiper", {
+        grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+        }
+    });
 
 
 

@@ -4,6 +4,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     background-color: var(--mainBg);
+    overflow-x: hidden;
 }
 * {
     color: #FFFFFF;
@@ -954,14 +955,100 @@ footer .bottom a.top-btn {
     font-size: 26px;
     line-height: 36px;
     text-align: center;
-    margin-bottom: 30px;
+    max-width: 570px;
+    margin: 0 auto 30px;
 }
 #serv .serv-swiper {
     max-width: 1980px;
+    margin: 0 auto 50px;
 }
-#serv .serv-swiper .swiper-slide {
-    
-}
+
 #serv .serv-swiper .swiper-slide .img {
-    
+    margin-bottom: 30px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s all;
+}
+#serv .serv-swiper .swiper-slide p.title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+#serv .serv-swiper .swiper-slide a.red-btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    background: #AD1921;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.3s all;
+    width: fit-content;
+}
+#serv .serv-swiper .swiper-slide a.red-btn:hover {
+    background: #D81823;
+}
+#serv .serv-swiper .swiper-slide:hover .img {
+    background: rgba(255, 255, 255, 0.1);
+}
+#serv .dops {
+    margin-bottom: 40px;
+    position: relative;
+}
+#serv .dops .dops-swiper {
+    width: 100%;
+}
+#serv .dops .dops-swiper .swiper-slide .img {
+    height: 270px;
+}
+#serv .dops .dops-swiper .swiper-slide .img img {
+    object-fit: contain;
+}
+#serv .dops .dops-swiper {
+    width: 100%;
+    padding-bottom: 55px;
+}
+#serv .dops .dops-swiper .swiper-pagination {
+    position: relative;
+    margin: 0;
+    bottom: -25px;
+}
+#serv .dops .cons p.text {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+#serv .dops .cons a.red-btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    background: #AD1921;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.3s all;
+    width: fit-content;
+}
+#serv .dops .cons a.red-btn:hover {
+    background: #D81823;
+}
+#serv .dops .shadow {
+    position: absolute;
+    width: 1200px;
+    max-width: none;
+    height: 1200px;
+    top: 50%;
+    left: 235px;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
