@@ -76,6 +76,14 @@ document.addEventListener('DOMContentLoaded', () => {
         spaceBetween: 40,
         grabCursor: true
     });
+    var servSwiper = new Swiper(".serv-swiper", {
+        spaceBetween: 30,
+        slidesPerView: 5,
+        grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+        }
+    });
 
 
 

@@ -936,3 +936,32 @@ footer .bottom a.top-btn {
     font-size: 14px;
     line-height: 18px;
 }
+
+#serv {
+    position: relative;
+    padding: 150px 20px 100px;
+}
+#serv h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#serv p.descr {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#serv .serv-swiper {
+    max-width: 1980px;
+}
+#serv .serv-swiper .swiper-slide {
+    
+}
+#serv .serv-swiper .swiper-slide .img {
+    
+}
