@@ -91,7 +91,53 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    const delay = (n) => {
+		return new Promise (res => {
+			let tm = setTimeout (() => res(tm), n);
+		})
+	}
 
+    jQuery(function() {
+        let wheels = document.querySelectorAll('.front-w');
+        const anim = async (wh) => {
+            for ( const e of wh) {
+                for ( const a of wh ) {
+                    a.classList.remove('an')
+                }
+                
+                e.classList.add('an')
+                await delay(2000)
+            }
+            anim(wheels)
+        }
+        anim(wheels)
+    })
+
+    window.addEventListener('scroll', function() {
+		if (scrollY > 0 && scrollY < 140) {
+			$('header').css({
+				'position': 'absolute',
+				'background-color': 'transparent',
+                'box-shadow': 'none'
+			});
+		}
+		if (scrollY > 140) {
+			$('header').css({
+				'position': 'fixed',
+                'background-color': 'rgb(24 24 24 / 95%)',
+                'box-shadow': '0px 10px 10px rgba(0, 0, 0, 0.3)'
+			});
+		}
+	});
+
+    $("header nav").on("click", "a" , function (event) {
+		event.preventDefault();
+		let id  = $(this).attr('href'),
+			top = $(id).offset().top - 60;
+		$('body, html').animate({
+            scrollTop: top
+        }, 1500);
+	});
 
 
 
