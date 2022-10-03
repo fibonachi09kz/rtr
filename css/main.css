@@ -998,6 +998,9 @@ footer .bottom a.top-btn {
 #serv .serv-swiper .swiper-slide:hover .img {
     background: rgba(255, 255, 255, 0.1);
 }
+#serv .serv-swiper .swiper-slide:hover p.title {
+    text-decoration: none;
+}
 #serv .dops {
     margin-bottom: 40px;
     position: relative;
@@ -1051,4 +1054,30 @@ footer .bottom a.top-btn {
     left: 235px;
     transform: translate(-50%, -50%);
     z-index: -1;
+}
+
+#serv .ex-services h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#serv .ex-services p.descr {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#serv .ex-services .blocks .block {
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    gap: 27px;
+    transition: 0.3s all;
+}
+#serv .ex-services .blocks .block:hover {
+    background: rgb(255, 255, 255, 0.1);
 }
