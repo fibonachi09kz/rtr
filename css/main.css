@@ -1392,3 +1392,45 @@ header .bottom a:hover {
     top: 115px;
     left: -190px;
 }
+
+
+body .bg-img-1 {
+    position: absolute;
+    left: 50%;
+    top: 230px;
+    transform: translateX(-1269px);
+    z-index: 999;
+    pointer-events: none;
+}
+body .bg-img-2 {
+    position: absolute;
+    left: 50%;
+    top: 1422px;
+    transform: translateX(445px);
+    z-index: 999;
+    pointer-events: none;
+}
+body .bg-img-3 {
+    position: absolute;
+    left: 50%;
+    top: 6488px;
+    transform: translateX(-1225px);
+    z-index: 999;
+    pointer-events: none;
+}
+body .bg-img-4 {
+    position: absolute;
+    left: 50%;
+    top: 4119px;
+    transform: translateX(676px);
+    z-index: 999;
+    pointer-events: none;
+}
+body .bg-img-5 {
+    position: absolute;
+    left: 50%;
+    top: 2396px;
+    transform: translateX(-1000px);
+    z-index: 999;
+    pointer-events: none;
+}

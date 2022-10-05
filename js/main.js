@@ -130,13 +130,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	});
 
-    $("header nav").on("click", "a" , function (event) {
+    $("a.lazy").on("click", function (event) {
 		event.preventDefault();
 		let id  = $(this).attr('href'),
 			top = $(id).offset().top - 60;
 		$('body, html').animate({
             scrollTop: top
-        }, 1500);
+        }, 700);
 	});
 
 
