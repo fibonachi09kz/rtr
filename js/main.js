@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         grabCursor: true,
         pagination: {
             el: '.swiper-pagination',
+            clickable: true
         }
     });
     const brandsSwiper = new Swiper('.brands__swiper', {
@@ -78,16 +79,35 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     var servSwiper = new Swiper(".serv-swiper", {
         spaceBetween: 30,
-        slidesPerView: 5,
+        slidesPerView: 1,
         grabCursor: true,
         pagination: {
             el: '.swiper-pagination',
+            clickable: true
+        },
+        breakpoints: {
+            550: {
+                slidesPerView: 2,
+            },
+            678: {
+                slidesPerView: 3,
+            },
+            991: {
+                slidesPerView: 4,
+            },
+            1280: {
+                slidesPerView: 5,
+            }
         }
     });
     var dopsSwiper = new Swiper(".dops-swiper", {
         grabCursor: true,
+        autoplay: {
+            delay: 3000
+        },
         pagination: {
             el: '.swiper-pagination',
+            clickable: true
         }
     });
 
@@ -139,11 +159,27 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 700);
 	});
 
+    $.arcticmodal('setDefault', {
+        openEffect: {
+            type: 'fade',
+            speed: 200
+        },
+        closeEffect: {
+            type: 'fade',
+            speed: 200
+        },
+    });
 
-    $('.map-modal-btn').click(function() {
-        $('#map-modal').arcticmodal()
+
+    $('.polit-modal-btn').click(function(e) {
+        e.preventDefault();
+        $('#polit-modal').arcticmodal();
     })
 
+    $('address').click(function(e) {
+        e.preventDefault();
+        $('#map-modal').arcticmodal();
+    })
 
 
 
