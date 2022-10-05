@@ -140,7 +140,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 
-
+    $('.map-modal-btn').click(function() {
+        $('#map-modal').arcticmodal()
+    })
 
 
 
