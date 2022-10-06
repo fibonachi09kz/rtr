@@ -48,11 +48,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const reviewsSwiper = new Swiper('.reviews__swiper', {
         spaceBetween: 30,
-        slidesPerView: 4,
+        slidesPerView: 1,
         grabCursor: true,
         pagination: {
             el: '.swiper-pagination',
             clickable: true
+        },
+        breakpoints: {
+            390: {
+                slidesPerView: 2,
+            },
+            678: {
+                slidesPerView: 3,
+            },
+            991: {
+                slidesPerView: 4,
+            }
         }
     });
     const brandsSwiper = new Swiper('.brands__swiper', {
@@ -73,9 +84,17 @@ document.addEventListener('DOMContentLoaded', () => {
             draggable: true,
             hide: false
         },
-        slidesPerView: "auto",
+        slidesPerView: 1,
         spaceBetween: 40,
-        grabCursor: true
+        grabCursor: true,
+        breakpoints: {
+            678: {
+                slidesPerView: 2,
+            },
+            991: {
+                slidesPerView: 'auto',
+            }
+        }
     });
     var servSwiper = new Swiper(".serv-swiper", {
         spaceBetween: 30,

@@ -1732,4 +1732,265 @@ body .bg-img-5 {
         font-size: 14px;
         line-height: 16px;
     }
+    #quest .item .content__block .des .title:before {
+        top: 16px;
+    }
+    #quest .item .content__block .des .title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    #quest .item .content__block .des .text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    #quest h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+    #reviews .tabs {
+        gap: 20px;
+        max-width: 100%;
+        overflow: auto;
+    }
+    #reviews .tabs li span {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    #reviews .descr {
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    #reviews h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+    #brands {
+        padding: 80px 0 40px 0;
+    }
+    #brands .descr {
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    #gallery .items li {
+        height: auto;
+    }
+    #gallery .items li .layer .b {
+        background: url(/media/news/name.svg) center center/contain no-repeat;
+    }
+    #gallery {
+        padding: 162px 0 30px 0;
+    }
+    #gallery .show-more-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #gallery .gallery-categories .swiper-slide {
+        font-size: 21px;
+        line-height: 31px;
+        text-align: center;
+    }
+    #gallery .tabs li span {
+        gap: 10px;
+        font-size: 26px;
+        line-height: 39px;
+    }
+    #gallery .tabs li span img {
+        width: 22px;
+    }
+    #gallery .tabs {
+        gap: 40px;
+    }
+    #gallery .descr {
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    #gallery h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+    #gallery .block__line p {
+        font-size: 21px;
+        line-height: 26px;
+        padding: 0 15px;
+    }
+    #gallery .block__line {
+        padding: 70px 0;
+        top: -100px;
+    }
+    #work .consult .red-btn {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 20px;
+        margin: 0 auto;
+    }
+    #work .consult p.text {
+        font-size: 21px;
+        line-height: 26px;
+        text-align: center;
+    }
+    #work .consult h3 {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+    }
+    #work .steps .step .top {
+        margin-bottom: 20px;
+        position: relative;
+        justify-content: center;
+    }
+    #work .steps .step .line {
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+    #work .steps .step .line:before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 70px;
+        height: 55px;
+        background-color: #1A1919;
+        z-index: -1;
+    }
+    #work .steps .step h4 {
+        font-size: 18px;
+        line-height: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #work .steps .step p.des {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        max-width: 170px;
+        margin: 0 auto;
+    }
+    #work .steps .step .tooltip .name {
+        margin: 0 auto;
+    }
+    #work .steps .step .tooltip .drop {
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #work {
+        padding: 80px 0 120px 0;
+    }
+    #work address .socials {
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    #work .steps .step address .nums a {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+    #work .steps .step address .nums p {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+    #work p.descr {
+        font-size: 21px;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #work h2 {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #performance .side .red-btn {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 20px;
+    }
+    #performance .side .speak {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    #performance .main .ext-list li:before {
+        width: 16px;
+        height: 18px;
+    }
+    #performance .main .ext-list li {
+        padding-left: 36px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    #performance .main p.ext {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    #performance .main .fea {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    #performance .main .fea .block {
+        padding: 20px;
+        max-width: 500px;
+        width: 100%;
+    }
+    #performance .main .fea .block .icon {
+        width: 40px;
+        height: 40px;
+    }
+    #performance .main .fea .block .icon svg {
+        max-width: 16px;
+    }
+    #performance .main .fea .block p {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    #performance .main .steps li:before {
+        width: 16px;
+        height: 18px;
+    }
+    #performance .main .steps li {
+        position: relative;
+        padding-left: 36px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    #performance .main .steps {
+        margin-bottom: 30px;
+    }
+    #performance .main p.title {
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    #performance p.descr {
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    #performance h2 {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    #performance {
+        padding: 60px 0;
+    }
 }
