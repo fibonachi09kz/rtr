@@ -12,7 +12,7 @@ body {
 .container-main {
     max-width: 1170px;
     width: 100%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 body a {
     text-decoration: underline;
@@ -947,6 +947,7 @@ footer .bottom a.top-btn {
 #serv {
     position: relative;
     padding: 150px 20px 100px;
+    overflow: hidden;
 }
 #serv h2 {
     font-weight: 600;
@@ -1193,7 +1194,8 @@ header {
     z-index: 999;
 }
 header .top {
-    margin-bottom: 13px;
+    margin-bottom: 20px;
+    align-items: center;
 }
 header .top p.descr {
     font-weight: 300;
@@ -1217,7 +1219,7 @@ header .top .logo {
     justify-content: center;
 }
 header .top .logo img {
-    width: 106px;
+    width: 105px;
     height: fit-content
 }
 
@@ -1270,7 +1272,7 @@ header .bottom a:hover {
 
 
 #promo {
-    padding: 160px 0 100px 0;
+    padding: 200px 0 100px 0;
     background: url(/media/promo/1.png) center center/cover no-repeat;
 }
 #promo .main .wrap {
@@ -1565,7 +1567,12 @@ body .bg-img-5 {
 
 
 
-
+#serv .vector2 {
+    display: none;
+}
+#serv .vector {
+    display: block;
+}
 
 
 
@@ -1581,7 +1588,9 @@ body .bg-img-5 {
         padding: 0 15px;
     }
 }
-
+header .top .socials .icon.menu-mob {
+    display: none;
+}
 @media (max-width: 1000px) {
     footer .wrapper {
         flex-direction: column;
@@ -1993,4 +2002,400 @@ body .bg-img-5 {
     #performance {
         padding: 60px 0;
     }
+    #serv .ex-services .blocks .block {
+        flex-direction: column;
+        align-items: center;
+    }
+    #serv .ex-services .blocks .block .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #serv .ex-services .blocks .block .main p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #serv .ex-services .blocks .block h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #serv .ex-services .blocks .block a.red-btn {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #serv {
+        padding: 300px 20px 80px;
+    }
+    #serv .ex-services p.descr {
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+    #serv .ex-services h3 {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    #serv .dops .dops-swiper .swiper-slide .img {
+        height: 200px;
+    }
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        margin: 0px 5px !important;
+    }
+    #serv .dops .cons a.red-btn {
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 20px;
+    }
+    #serv .dops .cons p.text {
+        font-size: 21px;
+        line-height: 26px;
+        text-align: center;
+    }
+    #serv .dops .shadow {
+        position: absolute;
+        width: 791px;
+        max-width: none;
+        height: 780px;
+        top: 103px;
+        left: 46%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+    #serv .serv-swiper {
+        margin: 0 auto 100px;
+    }
+    #serv .serv-swiper .swiper-pagination {
+        margin-top: 30px;
+    }
+    #serv .serv-swiper .swiper-slide a.red-btn {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 20px;
+    }
+    #serv .serv-swiper .swiper-slide p.title {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 31px;
+    }
+    #serv .serv-swiper .swiper-slide .img {
+        margin-bottom: 20px;
+        height: 230px;
+    }
+    #serv p.descr {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    #serv h2 {
+        font-size: 26px;
+        line-height: 39px;
+        margin-bottom: 10px;
+    }
+    #serv .line {
+        padding: 80px 0;
+        background: url(/media/serv/line.png) center center/cover no-repeat;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: -50px;
+    }
+    #serv .line p {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    #serv .vector2 {
+        display: block;
+    }
+    #serv .vector {
+        display: none;
+    }
+    #serv .line .tool {
+        left: 50%;
+        transform: translate(-38%, 8px);
+        align-items: flex-start;
+    }
+    #serv .line .tool .block {
+        max-width: none;
+        transform: translate(-117px, 56px);
+    }
+    #serv .line .tool .block .img {
+        width: 68px;
+    }
+    #serv .line .tool .block p {
+        width: 200px;
+    }
+
+    .wheel {
+        justify-content: center;
+    }
+    .wheel .back__wheel {
+        width: 112px;
+        height: 224px;
+        overflow: hidden;
+    }
+    .wheel .back__wheel img {
+        animation: rotateWheel 12s linear infinite;
+        object-fit: contain;
+        height: 224px;
+        max-width: none;
+    }
+    .wheel .front__wheel {
+        width: 112px;
+        height: 224px;
+        overflow: hidden;
+    }
+    .wheel .front__wheel img {
+        object-fit: contain;
+        height: 224px;
+        max-width: none;
+        left: -112px;
+        position: absolute;
+    }
+    #promo .anim .spray {
+        position: absolute;
+        top: 115px;
+        left: 50%;
+        max-height: 390px;
+        transform: translate(-94%, -43px);
+    }
+    #promo .main .actions a.red-btn {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 15px 30px;
+        flex: none;
+    }
+    #promo .main .actions {
+        gap: 20px;
+    }
+    #promo .main .feat .block {
+        padding-left: 30px;
+        padding-right: 10px;
+        position: relative;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    
+    #promo .main .feat {
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+
+    #promo .main h2 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #promo {
+        padding: 100px 0 100px 0;
+    }
+    header .bottom {
+        display: none;
+    }
+    header .top p.descr {
+        display: none;
+    }
+    header .top .tel {
+        display: none;
+    }
+    header .top .socials .icon.tg {
+        display: none;
+    }
+    header .top .socials .icon.inst {
+        display: none;
+    }
+    header .top .socials .icon.menu-mob {
+        display: flex;
+        background: #AD1921;
+    }
+    header .top .socials .icon.wp svg {
+        width: 11px;
+    }
+    header .top .socials .icon {
+        border: none;
+    }
+    header .top address {
+        margin-right: 0;
+    }
+    header .top address p {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    header .top address .icon svg {
+        width: 9px;
+    }
+    header .top .logo img {
+        width: 51px;
+        display: block;
+        max-width: 51px;
+        height: auto;
+    }
+    header {
+        padding: 10px 0;
+    }
+    header .top {
+        margin-bottom: 0;
+    }
+}
+
+
+#mobile {
+    position: fixed;
+    left: 100vw;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    transition: 0.3s all;
+}
+#mobile.active {
+    left: 0;
+}
+#mobile .main {
+    width: 270px;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 999;
+    position: absolute;
+    right: 0;
+    padding: 15px 20px;
+}
+#mobile .overlay {
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(26, 25, 25, 0.9);
+}
+#mobile .main .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+#mobile .main .icon {
+    border-color: #000;
+}
+#mobile .main .icon svg path {
+    fill: #000
+}
+
+#mobile .main .actions address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-style: normal;
+}
+#mobile .main .actions address p {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #1A1919;
+}
+#mobile .main .actions .mob-close {
+    cursor: pointer;
+    transition: 0.1s all;
+}
+#mobile .main .actions .mob-close:active {
+    transform: scale(0.7);
+}
+#mobile .main .descr {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#mobile .main .descr .img {
+    width: 48px;
+    flex: none;
+}
+#mobile .main .descr p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1A1919;
+}
+
+#mobile .main .socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#mobile .main .socials a.icon.wp {
+    background: #25D366;
+    border-color: #fff;
+}
+#mobile .main .socials a.icon svg {
+    width: 11px;
+}
+#mobile .main .socials a.icon.wp svg path {
+    fill: #fff;
+}
+#mobile .main .tel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+#mobile .main .tel a {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+    text-decoration: none;
+    display: block;
+    color: #1A1919;
+}
+#mobile .main .tel p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1A1919;
+}
+#mobile .main .mob-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#mobile .main .mob-nav a {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #171616;
+    text-decoration: none;
+    transition: 0.2s all;
+}
+#mobile .main .mob-nav a:hover {
+    color: #AD1921
+}
+
+
+
+@media (max-width: 550px) {
+    #promo .anim .spray {
+        position: absolute;
+        top: 48px;
+        left: auto;
+        max-height: 390px;
+        transform: 0;
+        right: 112px;
+        transform: none;
+    }
+    .wheel {
+        justify-content: flex-end;
+    }
+    
 }

@@ -201,6 +201,29 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
 
+    jQuery(function() {
+        let mob = $('#mobile');
+        $('a.menu-mob').click(function(e) {
+            e.preventDefault();
+            if ( !mob.hasClass('active') ) {
+                mob.addClass('active')
+            }
+        })
+        $('.mob-close').click(function(e) {
+            e.preventDefault();
+            if ( mob.hasClass('active') ) {
+                mob.removeClass('active')
+            }
+        })
+        $('#mobile .overlay').click(function(e) {
+            e.preventDefault();
+            if ( mob.hasClass('active') ) {
+                mob.removeClass('active')
+            }
+        })
+    })
+
+    
 
 
 
